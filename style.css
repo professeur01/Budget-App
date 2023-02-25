@@ -1,0 +1,219 @@
+body{
+    position: relative;
+
+}
+
+h2 {
+    color: cornsilk;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900; ;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 4% 0% 0% 45%;
+    background-color: rgb(40, 18, 167);
+    display: inline;
+    border:solid 5px rgb(239, 134, 29) ;
+    border-radius: 9px;
+    padding: 5px 10px;
+    
+}
+
+#main1 {
+    margin: 0% 0% 0% 5%;
+    background-color: rgb(40, 18, 167);
+    background-size: auto 100% 100% 100% 100%;
+    padding: 30px 30px;
+    border: solid 5px;
+    border-radius: 11px;
+    border-color: rgb(239, 134, 29);
+    display: inline-block;
+    box-shadow: 0 0.7em 1.3em rgb(236, 119, 69);
+    
+}
+
+
+#main2 {
+    margin: 0% 0% 0% 5%;
+    background-color: rgb(40, 18, 167);
+    padding: 30px 30px;
+    border: solid 5px;
+    border-radius: 11px;
+    border-color: rgb(239, 134, 29);
+    display: inline-block;
+    box-shadow: 0 0.7em 1.3em 0.2em   rgb(236, 119, 69);
+}
+
+.t-input1 [type="number"] {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: rgb(236, 119, 69);
+    outline: none;
+    padding: 2px 30px;
+
+  
+
+}
+.t-input2 [type="text"] {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: rgb(236, 119, 69);
+    outline: none;
+    padding: 2px 30px;
+  
+
+}
+.t-input3 [type="number"] {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: rgb(236, 119, 69);
+    outline: none;
+    padding: 2px 20px;
+
+
+}
+#submit1 [type="submit"]{
+
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 5px;
+    border-width: 2px;
+    border-color: rgb(236, 119, 69);
+    border-radius: 5px 5px 10px 10px;
+    cursor: pointer;
+
+   
+}
+    
+#submit2 [type="submit"]{
+
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    padding: 4px 5px;
+    border-width: 2px;
+    border-color: rgb(236, 119, 69);
+    border-radius: 5px 5px 10px 10px;
+    cursor: pointer;
+    
+}
+.div1 {
+    position: absolute;
+    left: 40%;
+    margin: 50px 0px 0px 0px;
+    font-size: 24px;
+    font-weight: solid bold 150;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: auto;
+    padding: 0px 220px;
+   
+
+}
+.p1 {
+   position: absolute;
+   font-weight: bolder;
+   left: 8px;
+      display: inline-block;
+      color: rgb(40, 18, 167);
+
+  } 
+  .p2 {
+      font-weight: bolder;
+        display: inline-block;
+        color: rgb(40, 18, 167);
+    
+    } 
+    .p3 {
+      position: absolute;
+      font-weight: bolder;
+      right: 5px;
+        display: inline-block;
+        color: rgb(40, 18, 167);
+  
+    } 
+#span1 {
+    position: absolute;
+     margin: 0px 0px 0px 40px ;
+}
+#span2 {
+    position: absolute;
+    margin: 0px 0px 0px 50px;
+    
+}
+#span3 {
+    position: absolute;
+   margin: 0px 0px 0px 50px;
+}
+
+.img-billet{
+    width: 7%;
+    position: absolute;
+    left: 40%;
+    top: 11%;
+    object-fit: cover;
+  
+} 
+.img-card{
+    width: 6%;
+    position: absolute;
+    left: 52em;
+    top: 12%;
+    object-fit: cover;
+}
+.img-balance1{
+    width: 6%;
+    position: absolute;
+    left: 66em;
+    top: 13%;
+    object-fit: cover;
+       
+}
+.list{
+    position: absolute;
+    left: 45%;
+    top: 44%;
+    font-weight: solid  20%; 
+    
+
+}
+.expense-title{
+    position: relative;
+    font-weight: bolder 15px;
+    font-size:  22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: 30%;
+    top: 20%;
+       display: inline-block;
+       color: aliceblue;
+       background-color: rgb(40, 18, 167);
+       padding: 4px 9px;
+       border: solid 4px;
+       border-color: rgb(239, 134, 29);
+       border-radius: 11px;
+       box-shadow: 0 0.2em 1.3em 0.2em   rgb(236, 119, 69);
+ 
+}
+.expense-value{
+    position: relative;
+   font-weight: bolder 15%;
+   font-size: 22px ;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   right: 34px;
+      display: inline-block;
+      color: aliceblue;
+      background-color: rgb(40, 18, 167);
+      padding: 4px 9px;
+      border: solid 4px;
+      border-color: rgb(239, 134, 29);
+      border-radius: 11px;
+      box-shadow: 0 0.2em 1.3em 0.2em   rgb(236, 119, 69);
+
+}
